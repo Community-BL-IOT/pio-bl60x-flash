@@ -9,10 +9,7 @@
   ],
   "homepage": "https://github.com/stschake/bl60x-flash",
   "license": "GPL-2.0-or-later",
-  "system": [
-    "windows_x86",
-    "windows_amd64"
-  ],
+  "system": "*",
   "repository": {
     "type": "git",
     "url": "https://github.com/stschake/bl60x-flash"
