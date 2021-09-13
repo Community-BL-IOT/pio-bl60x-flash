@@ -1,0 +1,20 @@
+{
+  "name": "tool-bl60x-flash",
+  "version": "1.1000.0",
+  "description": "Programming tool for Bouffalo Labs BL602/BL604 chips",
+  "keywords": [
+    "tools",
+    "uploader",
+    "risc-v"
+  ],
+  "homepage": "https://github.com/stschake/bl60x-flash",
+  "license": "GPL-2.0-or-later",
+  "system": [
+    "windows_x86",
+    "windows_amd64"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stschake/bl60x-flash"
+  }
+}
