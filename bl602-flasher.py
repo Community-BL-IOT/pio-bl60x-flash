@@ -202,7 +202,7 @@ def prepend_fw_header(img, header_file):
 
 def get_contrib_path(name):
     sep = os.path.sep
-    return os.path.dirname(sys.executable) + sep + 'contrib' + sep + name
+    return os.path.dirname(os.path.realpath(__file__)) + sep + 'contrib' + sep + name
 
 def main():
     if len(sys.argv) < 3:
